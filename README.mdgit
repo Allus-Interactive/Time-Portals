@@ -1,1 +1,0 @@
-"# Time-Portals"  initgit add README.mdgit commit -m "first commit"git remote add origin https://github.com/AllusInteractive/Time-Portals.gitgit push -u origin master                
