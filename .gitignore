@@ -1,0 +1,13 @@
+TimePortals/[Ll]ibrary/
+TimePortals/[Tt]emp/
+TimePortals/[Oo]bj/
+TimePortals/[Bb]uild/
+TimePortals/[Bb]uilds/
+TimePortals/[Ll]ogs/
+TimePortals/[Mm]emoryCaptures/
+
+# Never ignore Asset meta data
+!TimePortals/[Aa]ssets/**/*.meta
+
+#TextMesh Pro files
+TimePortals/[Aa]ssets/TextMesh*Pro/
