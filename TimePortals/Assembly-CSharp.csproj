@@ -421,7 +421,7 @@
      <Compile Include="Assets\Mapbox SDK\Mapbox\Unity\Utilities\VectorExtensions.cs" />
      <Compile Include="Assets\Models\Player\Scripts\Player.cs" />
      <Compile Include="Assets\Models\Player\Scripts\PlayerData.cs" />
-     <Compile Include="Assets\Scripts\CameraRotation.cs" />
+     <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\MapPortal.cs" />
      <Compile Include="Assets\Scripts\MapSpawner.cs" />
      <Compile Include="Assets\Scripts\MenuManager.cs" />
@@ -430,6 +430,7 @@
      <Compile Include="Assets\Scripts\PortalPlacer.cs" />
      <Compile Include="Assets\Scripts\RelicHunterConstants.cs" />
      <Compile Include="Assets\Scripts\RelicHuntersSceneManager.cs" />
+     <Compile Include="Assets\Scripts\SceneLoader.cs" />
      <Compile Include="Assets\Scripts\Singleton.cs" />
      <Compile Include="Assets\Scripts\UIManager.cs" />
      <Compile Include="Assets\Scripts\WorldSceneManager.cs" />
