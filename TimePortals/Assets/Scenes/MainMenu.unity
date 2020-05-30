@@ -868,7 +868,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Relic Hunter
+  m_Text: 'Time Portals
+
+'
 --- !u!222 &1350081251
 CanvasRenderer:
   m_ObjectHideFlags: 0
