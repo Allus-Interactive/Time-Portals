@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/WorldMap.unity
     guid: eaa7b76d0423e234db76b5736386eeb4
   - enabled: 1
-    path: Assets/Scenes/Relics.unity
+    path: Assets/Scenes/Collections.unity
     guid: 22c17fb524fa88741879bdd0cd22b9c6
   - enabled: 1
     path: Assets/Scenes/Profile.unity
