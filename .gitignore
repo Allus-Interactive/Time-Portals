@@ -2,9 +2,12 @@ TimePortals/[Ll]ibrary/
 TimePortals/[Tt]emp/
 TimePortals/[Oo]bj/
 TimePortals/[Bb]uild/
-TimePortals/[Bb]uilds/
 TimePortals/[Ll]ogs/
 TimePortals/[Mm]emoryCaptures/
+
+# Ignore Tests and Builds
+[Bb]uilds
+[Tt]estBuilds
 
 # Never ignore Asset meta data
 !TimePortals/[Aa]ssets/**/*.meta
