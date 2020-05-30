@@ -6,6 +6,9 @@ TimePortals/[Bb]uilds/
 TimePortals/[Ll]ogs/
 TimePortals/[Mm]emoryCaptures/
 
+# Ignore Builds folder
+[Bb]uilds
+
 # Never ignore Asset meta data
 !TimePortals/[Aa]ssets/**/*.meta
 
