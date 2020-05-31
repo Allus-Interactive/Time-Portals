@@ -1082,7 +1082,7 @@ GameObject:
   - component: {fileID: 795150565}
   - component: {fileID: 795150564}
   m_Layer: 5
-  m_Name: Placeholder1
+  m_Name: Shield
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1125,7 +1125,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b7f5bc0921642df40ab10b3c669ee7bb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: addbb5d6b97b8d541b00e36288c41548, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1264,7 +1264,7 @@ GameObject:
   - component: {fileID: 998223757}
   - component: {fileID: 998223756}
   m_Layer: 5
-  m_Name: Placeholder4
+  m_Name: Statuette
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1307,7 +1307,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b7f5bc0921642df40ab10b3c669ee7bb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6c3822136747d754ea544e673816c4b1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1337,7 +1337,7 @@ GameObject:
   - component: {fileID: 1179162684}
   - component: {fileID: 1179162683}
   m_Layer: 5
-  m_Name: Placeholder2
+  m_Name: Shield
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1380,7 +1380,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b7f5bc0921642df40ab10b3c669ee7bb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8dfe337e42f93d441af1dcdf02a26181, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1686,7 +1686,7 @@ GameObject:
   - component: {fileID: 1620586389}
   - component: {fileID: 1620586388}
   m_Layer: 5
-  m_Name: Placeholder3
+  m_Name: Statuette
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1729,7 +1729,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b7f5bc0921642df40ab10b3c669ee7bb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e9b319d9065a143458015f903525dbbb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1759,7 +1759,7 @@ GameObject:
   - component: {fileID: 2046022690}
   - component: {fileID: 2046022689}
   m_Layer: 5
-  m_Name: Placeholder5
+  m_Name: Pirate Coin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1802,7 +1802,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b7f5bc0921642df40ab10b3c669ee7bb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f276826f1537f91448c75488504d43d4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1832,7 +1832,7 @@ GameObject:
   - component: {fileID: 2132217472}
   - component: {fileID: 2132217471}
   m_Layer: 5
-  m_Name: Placeholder6
+  m_Name: Pirate Coin Unlocked
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1875,7 +1875,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b7f5bc0921642df40ab10b3c669ee7bb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ae6e7b784e0d5ed4ab3e1e17bf5a3a02, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
