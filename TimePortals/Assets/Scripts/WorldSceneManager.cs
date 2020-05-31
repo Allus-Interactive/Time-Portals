@@ -23,7 +23,8 @@ public class WorldSceneManager : RelicHuntersSceneManager
 
     public override void portalTapped(GameObject portal)
     {
-        // SceneManager.LoadScene(RelicHunterConstants.SCENE_BASIC_PORTAL, LoadSceneMode.Additive);
-        SceneManager.LoadScene(4);
+        // Random.Range(min, max): choses random int from between min and max-1
+        var randomInt = Random.Range(4, 7);
+        SceneManager.LoadScene(randomInt);
     }
 }
