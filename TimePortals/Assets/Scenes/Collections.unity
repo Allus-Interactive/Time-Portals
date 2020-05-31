@@ -634,7 +634,7 @@ GameObject:
   - component: {fileID: 605406649}
   - component: {fileID: 605406648}
   m_Layer: 5
-  m_Name: TitlesMedieval
+  m_Name: TitlesTemplar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -677,7 +677,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Medieval
+  m_text: 'Templar
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -748,7 +750,7 @@ MonoBehaviour:
     textComponent: {fileID: 605406648}
     characterCount: 8
     spriteCount: 0
-    spaceCount: 0
+    spaceCount: 1
     wordCount: 1
     linkCount: 0
     lineCount: 1
@@ -1083,7 +1085,7 @@ GameObject:
   - component: {fileID: 795150565}
   - component: {fileID: 795150564}
   m_Layer: 5
-  m_Name: Shield
+  m_Name: Templar Shield
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1301,7 +1303,7 @@ GameObject:
   - component: {fileID: 998223757}
   - component: {fileID: 998223756}
   m_Layer: 5
-  m_Name: Statuette
+  m_Name: GreekSword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1344,7 +1346,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6c3822136747d754ea544e673816c4b1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 63935b5c67352c54f94ad4bc308a4d84, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1374,7 +1376,7 @@ GameObject:
   - component: {fileID: 1179162684}
   - component: {fileID: 1179162683}
   m_Layer: 5
-  m_Name: Shield
+  m_Name: Templar Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1417,7 +1419,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8dfe337e42f93d441af1dcdf02a26181, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c4ba6275f58447a408b813d593498b81, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1919,7 +1921,7 @@ GameObject:
   - component: {fileID: 1620586389}
   - component: {fileID: 1620586388}
   m_Layer: 5
-  m_Name: Statuette
+  m_Name: GreekStatuette
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2065,7 +2067,7 @@ GameObject:
   - component: {fileID: 2132217472}
   - component: {fileID: 2132217471}
   m_Layer: 5
-  m_Name: Pirate Coin Unlocked
+  m_Name: Cutlass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2108,7 +2110,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ae6e7b784e0d5ed4ab3e1e17bf5a3a02, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 67dec55d04707fe41aa622e5f5e6de14, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
