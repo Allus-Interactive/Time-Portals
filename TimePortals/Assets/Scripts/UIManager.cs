@@ -9,6 +9,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Text xpText;
     [SerializeField] private Text levelText;
     [SerializeField] private GameObject menu;
+    [SerializeField] private GameObject profileButton;
 
     private void Awake()
     {
@@ -30,5 +31,6 @@ public class UIManager : MonoBehaviour
     public void ToggleMenu()
     {
         menu.SetActive(!menu.activeSelf);
+        profileButton.SetActive(!profileButton.activeSelf);
     }
 }
