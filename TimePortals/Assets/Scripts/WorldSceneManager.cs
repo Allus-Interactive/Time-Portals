@@ -25,6 +25,6 @@ public class WorldSceneManager : RelicHuntersSceneManager
     {
         // Random.Range(min, max): choses random int from between min and max-1
         var randomInt = Random.Range(4, 7);
-        SceneManager.LoadScene(randomInt);
+        SceneManager.LoadScene(4);
     }
 }
