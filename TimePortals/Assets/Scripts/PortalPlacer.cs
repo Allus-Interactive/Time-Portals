@@ -8,16 +8,19 @@ using UnityEngine.XR.ARSubsystems;
 public class PortalPlacer : MonoBehaviour
 {
     ARRaycastManager m_ARRaycastManager;
+    ARPlaneManager m_ARPlaneManager;
     List<ARRaycastHit> raycastHits = new List<ARRaycastHit>();
 
     // GameObject to be instantiated
     public GameObject portal;
+    public GameObject[] portalList;
     // GameObject to be spawned
     private GameObject spawnedPortal;
 
     private void Awake()
     {
         m_ARRaycastManager = GetComponent<ARRaycastManager>();
+        m_ARPlaneManager = GetComponent<ARPlaneManager>();
     }
     
     void Update()
@@ -32,15 +35,23 @@ public class PortalPlacer : MonoBehaviour
                 // Get the pose of the hit
                 Pose pose = raycastHits[0].pose;
 
+                var portalIndex = Random.Range(0, (portalList.Length + 1));
+
                 if (spawnedPortal == null)
                 {
-                    spawnedPortal = Instantiate(portal, pose.position, Quaternion.Euler(0, 0, 0));
+                    spawnedPortal = Instantiate(portalList[portalIndex], pose.position, Quaternion.Euler(0, 0, 0));
 
                     // TODO: move following lines to private function SetPortalRotation()
 
                     var rotationOfPortal = spawnedPortal.transform.rotation.eulerAngles;
 
                     spawnedPortal.transform.eulerAngles = new Vector3(rotationOfPortal.x, Camera.main.transform.eulerAngles.y, rotationOfPortal.z);
+
+                    // turn off the plane detector when the portal is placed
+                    foreach (var plane in m_ARPlaneManager.trackables)
+                    {
+                        plane.gameObject.SetActive(false);
+                    }
                 }
                 else
                 {
@@ -53,6 +64,7 @@ public class PortalPlacer : MonoBehaviour
             }
         }
     }
+
     /*
     private void SetPortalRotation(gameObject portal)
     {

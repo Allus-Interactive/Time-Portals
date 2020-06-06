@@ -477,6 +477,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   portal: {fileID: 2315638408912645415, guid: f2048ae1a09b2bf47b5b024d0becc2d8, type: 3}
+  portalList:
+  - {fileID: 2315638408912645415, guid: 5e9fffa5f447fb64eaa536269cb6322e, type: 3}
+  - {fileID: 2315638408912645415, guid: 405dfc183fd6c0e48a20d53f585021fa, type: 3}
 --- !u!114 &2029336498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -678,6 +681,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TogglePlanesButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 4103548198045412266, guid: 9d01e94d57cf56646b082d3716d81b1f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4103548198045412267, guid: 9d01e94d57cf56646b082d3716d81b1f,
         type: 3}
