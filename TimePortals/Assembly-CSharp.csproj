@@ -422,6 +422,7 @@
      <Compile Include="Assets\Models\Player\Scripts\Player.cs" />
      <Compile Include="Assets\Models\Player\Scripts\PlayerData.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\CollectableContainer.cs" />
      <Compile Include="Assets\Scripts\MapPortal.cs" />
      <Compile Include="Assets\Scripts\MapSpawner.cs" />
      <Compile Include="Assets\Scripts\MenuManager.cs" />

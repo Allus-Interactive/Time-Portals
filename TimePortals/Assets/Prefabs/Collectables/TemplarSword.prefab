@@ -11,9 +11,11 @@ GameObject:
   - component: {fileID: 2937762385448215921}
   - component: {fileID: 6169370652901515079}
   - component: {fileID: 478094624949396414}
+  - component: {fileID: 8632615852556887467}
+  - component: {fileID: 1129060180134619040}
   m_Layer: 0
   m_Name: TemplarSword
-  m_TagString: Untagged
+  m_TagString: Collectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25,7 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2206304822657013602}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.477, y: 1.06, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -58,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6d8e7cf1f2d7d3249a796148b35c14db, type: 2}
+  - {fileID: 2100000, guid: e7ffdf5cc1c426f4cb5cd6ea722b39d9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -79,3 +81,28 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &8632615852556887467
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2206304822657013602}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.239847, y: 0.8697607, z: 0.1}
+  m_Center: {x: -0.00000020535597, y: 0.44530198, z: -0.00000040727122}
+--- !u!114 &1129060180134619040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2206304822657013602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd5874c23b1c66b4e892077b8db99a54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
