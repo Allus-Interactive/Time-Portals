@@ -17,12 +17,32 @@ public class CollectableController : MonoBehaviour
             {
                 if (raycastHit.collider.CompareTag("Collectable"))
                 {
+                    // set sound effect and play it
                     collectableSFX = GetComponent<AudioSource>();
                     collectableSFX.Play();
+                    // set the collectable inactive
                     gameObject.SetActive(false);
+                    // use collectable name to set bool for collectable
+                    SetCollectableBool(gameObject.name);
+                    // return to map scene
                     SceneManager.LoadScene(1);
                 }
             }
         }
+    }
+
+    public void SetCollectableBool(string collectableName)
+    {
+        if (collectableName == "TemplarShield")
+        {
+            GlobalVariables.templarShieldCollected = true;
+        }
+
+        if (collectableName == "TemplarSword")
+        {
+            GlobalVariables.templarSwordCollected = true;
+        }
+
+        // TODO: add in if statements for other collectables
     }
 }
