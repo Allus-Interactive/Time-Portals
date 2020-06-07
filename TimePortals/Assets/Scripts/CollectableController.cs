@@ -1,15 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class CollectableContainer : MonoBehaviour
+public class CollectableController : MonoBehaviour
 {
-    // private AudioSource collectableSFX;
-
-    void Awake()
-    {
-        // collectableSFX = GetComponent<AudioSource>();
-    }
+    private AudioSource collectableSFX;
 
     void Update()
     {
@@ -21,8 +17,10 @@ public class CollectableContainer : MonoBehaviour
             {
                 if (raycastHit.collider.CompareTag("Collectable"))
                 {
+                    collectableSFX = GetComponent<AudioSource>();
+                    collectableSFX.Play();
                     gameObject.SetActive(false);
-                    // collectableSFX.Play();
+                    SceneManager.LoadScene(1);
                 }
             }
         }

@@ -170,6 +170,9 @@
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>C:/Users/Jason/Documents/Unity 2019/Time-Portals/TimePortals/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.ProBuilder">
+ <HintPath>C:/Users/Jason/Documents/Unity 2019/Time-Portals/TimePortals/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.XR.ARSubsystems">
  <HintPath>C:/Users/Jason/Documents/Unity 2019/Time-Portals/TimePortals/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
  </Reference>
@@ -178,6 +181,12 @@
  </Reference>
  <Reference Include="Unity.XR.ARCore">
  <HintPath>C:/Users/Jason/Documents/Unity 2019/Time-Portals/TimePortals/Library/ScriptAssemblies/Unity.XR.ARCore.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.Editor">
+ <HintPath>C:/Users/Jason/Documents/Unity 2019/Time-Portals/TimePortals/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+ <HintPath>C:/Users/Jason/Documents/Unity 2019/Time-Portals/TimePortals/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.ARFoundation.Editor">
  <HintPath>C:/Users/Jason/Documents/Unity 2019/Time-Portals/TimePortals/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll</HintPath>
@@ -215,6 +224,9 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>C:/Users/Jason/Documents/Unity 2019/Time-Portals/TimePortals/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.ProBuilder.AddOns.Editor">
+ <HintPath>C:/Users/Jason/Documents/Unity 2019/Time-Portals/TimePortals/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>C:/Users/Jason/Documents/Unity 2019/Time-Portals/TimePortals/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
@@ -223,18 +235,6 @@
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>C:/Users/Jason/Documents/Unity 2019/Time-Portals/TimePortals/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.ProBuilder">
- <HintPath>C:/Users/Jason/Documents/Unity 2019/Time-Portals/TimePortals/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
- </Reference>
- <Reference Include="Unity.ProBuilder.Editor">
- <HintPath>C:/Users/Jason/Documents/Unity 2019/Time-Portals/TimePortals/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
- <HintPath>C:/Users/Jason/Documents/Unity 2019/Time-Portals/TimePortals/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
- </Reference>
- <Reference Include="Unity.ProBuilder.AddOns.Editor">
- <HintPath>C:/Users/Jason/Documents/Unity 2019/Time-Portals/TimePortals/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

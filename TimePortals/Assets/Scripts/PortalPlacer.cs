@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Experimental.XR;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
+using UnityEngine.UI;
 
 public class PortalPlacer : MonoBehaviour
 {
@@ -11,9 +12,10 @@ public class PortalPlacer : MonoBehaviour
     ARPlaneManager m_ARPlaneManager;
     List<ARRaycastHit> raycastHits = new List<ARRaycastHit>();
 
-    // GameObject to be instantiated
+    // List of portal GameObjects which can be instantiated
     public GameObject portal;
     public GameObject[] portalList;
+    public GameObject cameraText;
     // GameObject to be spawned
     private GameObject spawnedPortal;
 
@@ -52,6 +54,9 @@ public class PortalPlacer : MonoBehaviour
                     {
                         plane.gameObject.SetActive(false);
                     }
+
+                    // hide camera text
+                    cameraText.SetActive(false);
                 }
                 else
                 {
