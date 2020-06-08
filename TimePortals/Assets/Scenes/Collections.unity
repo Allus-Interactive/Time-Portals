@@ -653,9 +653,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TemplarShield: {fileID: 795150564}
   TemplarSword: {fileID: 1179162683}
+  PirateCutlass: {fileID: 2132217471}
+  PirateCoin: {fileID: 2046022689}
+  GreekSword: {fileID: 998223756}
+  GreekStatuette: {fileID: 1620586388}
   TemplarShieldUnlocked: {fileID: 21300000, guid: 8dfe337e42f93d441af1dcdf02a26181,
     type: 3}
   TemplarSwordUnlocked: {fileID: 21300000, guid: e05c5d3b6c0e33d4584bc0e1fca89d8e,
+    type: 3}
+  PirateCutlassUnlocked: {fileID: 21300000, guid: 06c9171c74e63274db9c436af22c0333,
+    type: 3}
+  PirateCoinUnlocked: {fileID: 21300000, guid: ae6e7b784e0d5ed4ab3e1e17bf5a3a02, type: 3}
+  GreekSwordUnlocked: {fileID: 21300000, guid: 8dcdc52cfadb43e49892c2a5dea15ca5, type: 3}
+  GreekStatuetteUnlocked: {fileID: 21300000, guid: 6c3822136747d754ea544e673816c4b1,
     type: 3}
 --- !u!4 &527199713
 Transform:
@@ -2116,7 +2126,7 @@ GameObject:
   - component: {fileID: 2132217472}
   - component: {fileID: 2132217471}
   m_Layer: 5
-  m_Name: Cutlass
+  m_Name: PirateCutlass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

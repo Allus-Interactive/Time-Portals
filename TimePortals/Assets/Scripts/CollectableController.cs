@@ -45,6 +45,24 @@ public class CollectableController : MonoBehaviour
             GlobalVariables.templarSwordCollected = true;
         }
 
-        // TODO: add in if statements for other collectables
+        if (collectableName == "PirateCutlass")
+        {
+            GlobalVariables.pirateCutlassCollected = true;
+        }
+
+        if (collectableName == "CoinStash")
+        {
+            GlobalVariables.pirateCoinCollected = true;
+        }
+
+        if (collectableName == "GreekSword")
+        {
+            GlobalVariables.greekSwordCollected = true;
+        }
+
+        if (collectableName == "GreekStatuette")
+        {
+            GlobalVariables.greekStatuetteCollected = true;
+        }
     }
 }
