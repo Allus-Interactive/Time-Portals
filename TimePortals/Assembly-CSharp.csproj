@@ -429,6 +429,7 @@
      <Compile Include="Assets\Scripts\MapSpawner.cs" />
      <Compile Include="Assets\Scripts\MenuManager.cs" />
      <Compile Include="Assets\Scripts\PlaneController.cs" />
+     <Compile Include="Assets\Scripts\PlayerStats.cs" />
      <Compile Include="Assets\Scripts\Portal.cs" />
      <Compile Include="Assets\Scripts\PortalPlacer.cs" />
      <Compile Include="Assets\Scripts\RelicHunterConstants.cs" />

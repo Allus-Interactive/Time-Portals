@@ -24,6 +24,8 @@ public class CollectableController : MonoBehaviour
                     gameObject.SetActive(false);
                     // use collectable name to set bool for collectable
                     SetCollectableBool(gameObject.name);
+                    // add exp to current exp
+                    GlobalVariables.currentExp += 50;
                     // return to map scene
                     SceneManager.LoadScene(1);
                 }
