@@ -8,6 +8,23 @@ public class PlayerStats : MonoBehaviour
     public Text LevelText;
     public Text ExpText;
 
+    string levelKey = "PlayerLevel";
+    string expKey = "CurrentExp";
+
+    public void Awake()
+    {
+        if (PlayerPrefs.HasKey(levelKey) && PlayerPrefs.HasKey(expKey))
+        {
+            PlayerPrefs.GetFloat(levelKey);
+            PlayerPrefs.GetFloat(expKey);
+        }
+        else
+        {
+            LevelText.text = GlobalVariables.playerLevel.ToString();
+            ExpText.text = GlobalVariables.currentExp.ToString() + " / " + 100;
+        }
+    }
+
     public void Update()
     {
         var nextLevelExp = GlobalVariables.level1.ToString();
@@ -49,8 +66,13 @@ public class PlayerStats : MonoBehaviour
             nextLevelExp = "";
         }
 
-        LevelText.text = GlobalVariables.playerLevel.ToString();
-        ExpText.text = GlobalVariables.currentExp.ToString() + " / " + nextLevelExp;
+
+        if (PlayerPrefs.HasKey(levelKey) && PlayerPrefs.HasKey(expKey))
+        {
+            LevelText.text = PlayerPrefs.GetFloat(levelKey).ToString();
+            ExpText.text = PlayerPrefs.GetFloat(expKey).ToString() + " / " + nextLevelExp;
+        }
+            
 
         // TODO: this has the potential to get messy, need to make this better
         if (GlobalVariables.playerLevel == 1 && GlobalVariables.currentExp >= 100)
@@ -113,5 +135,9 @@ public class PlayerStats : MonoBehaviour
             GlobalVariables.currentExp = 0;
             ExpText.text = "Max";
         }
+
+        // Set PlayerPrefs
+        PlayerPrefs.SetFloat(levelKey, GlobalVariables.playerLevel);
+        PlayerPrefs.SetFloat(expKey, GlobalVariables.currentExp);
     }
 }
