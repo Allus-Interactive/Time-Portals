@@ -36,6 +36,7 @@ public class MapSpawner : Singleton<MapSpawner>
         {
             InstantiatePortal();
         }
+
         StartCoroutine(GeneratePortals());
     }
 

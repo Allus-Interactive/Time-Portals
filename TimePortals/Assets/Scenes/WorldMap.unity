@@ -394,7 +394,7 @@ MonoBehaviour:
   waitTime: 180
   startingPortals: 2
   minRange: 5
-  maxRange: 50
+  maxRange: 30
 --- !u!114 &140700509
 MonoBehaviour:
   m_ObjectHideFlags: 0

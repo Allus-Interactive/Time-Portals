@@ -484,7 +484,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6690e5ea3419a241814b3789286d0f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnRate: 0.01
+  spawnRate: 0.1
 --- !u!65 &1537265677
 BoxCollider:
   m_ObjectHideFlags: 0

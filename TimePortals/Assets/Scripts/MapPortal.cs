@@ -24,6 +24,7 @@ public class MapPortal : MonoBehaviour
             if (relicHuntersSceneManager.gameObject.activeSelf)
             {
                 relicHuntersSceneManager.portalTapped(this.gameObject);
+                Destroy(this.gameObject);
             }
         }
     }
