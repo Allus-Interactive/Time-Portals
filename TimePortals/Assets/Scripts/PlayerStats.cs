@@ -15,8 +15,8 @@ public class PlayerStats : MonoBehaviour
     {
         if (PlayerPrefs.HasKey(levelKey) && PlayerPrefs.HasKey(expKey))
         {
-            PlayerPrefs.GetFloat(levelKey);
-            PlayerPrefs.GetFloat(expKey);
+            LevelText.text = PlayerPrefs.GetFloat(levelKey).ToString();
+            ExpText.text = PlayerPrefs.GetFloat(expKey).ToString();
         }
         else
         {
