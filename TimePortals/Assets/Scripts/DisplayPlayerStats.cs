@@ -21,11 +21,24 @@ public class DisplayPlayerStats : MonoBehaviour
             currentExp.text = "Current Exp: " + PlayerPrefs.GetInt(expKey).ToString();
             nextLevelExp.text = "Exp to next level: " + PlayerPrefs.GetInt(nextLvlExpKey).ToString();
         }
-        /*else
+
+        var playerLvl = PlayerPrefs.GetInt(levelKey, 0);
+
+        if (playerLvl != 0)
         {
-            playerLevel.text = "Player Level: 1";
-            currentExp.text = "Current Exp: 0";
-            nextLevelExp.text = "Exp to next level: 100";
-        }*/
+            playerLevel.text = "Player Level: " + PlayerPrefs.GetInt(levelKey).ToString();
+            currentExp.text = "Current Exp: " + PlayerPrefs.GetInt(expKey).ToString();
+            nextLevelExp.text = "Exp to next level: " + PlayerPrefs.GetInt(nextLvlExpKey).ToString();
+        }
+        else
+        {
+            PlayerPrefs.SetInt(levelKey, 1);
+            PlayerPrefs.SetInt(expKey, 0);
+            PlayerPrefs.SetInt(nextLvlExpKey, 100);
+
+            playerLevel.text = "Player Level: " + PlayerPrefs.GetInt(levelKey).ToString();
+            currentExp.text = "Current Exp: " + PlayerPrefs.GetInt(expKey).ToString();
+            nextLevelExp.text = "Exp to next level: " + PlayerPrefs.GetInt(nextLvlExpKey).ToString();
+        }
     }
 }
