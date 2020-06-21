@@ -13,8 +13,9 @@ public static class GlobalVariables
     public static bool pirateCutlassCollected = false;
 
     // Player Stats
-    public static float playerLevel = 1;
-    public static float currentExp = 0;
+    public static int playerLevel;
+    public static int currentExp;
+    public static int nextLevelExp;
 
     // Level Exp
     public static float level1 = 100;

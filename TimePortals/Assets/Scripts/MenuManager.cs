@@ -12,6 +12,8 @@ public class MenuManager : MonoBehaviour
     // 2 - Relics Collection
     // 3 - Profile
     // 4 - Basic Portal
+
+    public GameObject ResetPopup;
     
     public void Awake()
     {
@@ -46,5 +48,21 @@ public class MenuManager : MonoBehaviour
     {
         Debug.Log("Quit Game");
         Application.Quit();
+    }
+
+    public void ResetPlayerPrefs()
+    {
+        PlayerPrefs.DeleteAll();
+        HideResetPopup();
+    }
+
+    public void ShowResetPopup()
+    {
+        ResetPopup.SetActive(true);
+    }
+
+    public void HideResetPopup()
+    {
+        ResetPopup.SetActive(false);
     }
 }

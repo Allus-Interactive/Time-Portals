@@ -65,7 +65,6 @@ public class CollectableManager : MonoBehaviour
         {
             TemplarShield.sprite = TemplarShieldUnlocked;
             PlayerPrefs.SetInt(templarShieldKey, 1);
-
         }
 
         if (GlobalVariables.templarSwordCollected)

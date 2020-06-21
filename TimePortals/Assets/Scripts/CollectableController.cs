@@ -7,6 +7,8 @@ public class CollectableController : MonoBehaviour
 {
     private AudioSource collectableSFX;
 
+    string expKey = "CurrentExp";
+
     void Update()
     {
         if ((Input.touchCount > 0) && (Input.GetTouch(0).phase == TouchPhase.Began))
@@ -24,8 +26,9 @@ public class CollectableController : MonoBehaviour
                     gameObject.SetActive(false);
                     // use collectable name to set bool for collectable
                     SetCollectableBool(gameObject.name);
-                    // add exp to current exp
+                    // add exp to current exp and save to PlayerPrefs
                     GlobalVariables.currentExp += 50;
+                    PlayerPrefs.SetInt(expKey, GlobalVariables.currentExp);
                     // return to map scene
                     SceneManager.LoadScene(1);
                 }
